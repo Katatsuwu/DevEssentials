@@ -1,0 +1,464 @@
+/* OUTPUT BY: DENAGA, VISTO, MONTE, DIMAAPI, SILVA, MERCIADEZ, CRUZ */
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #FFFFFF;
+}
+
+body {
+    background-image: url("DevessBG.png");
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center;
+}
+
+/*----------HEADER DESIGN----------*/
+
+.logo {
+    width: 197px;
+    height: 55px;
+    padding-left: 30px;
+}
+
+.header {
+    width: 100%;
+    height: 65px;
+    justify-content: space-between;
+    display: flex;
+    padding: 16px;
+    padding-left: 0px;
+    background-color: #150050;
+    border-bottom: 2px solid #D9D9D9;
+    position: fixed;
+    font-size: 18px;
+    box-shadow: 1px 1px 20px 0px #000000;
+}
+
+.carticon {
+    width: 30px;
+    position: relative;
+    top: 9px;
+    opacity: 100%;
+}
+
+.navbar ul li { 
+    display: inline-block;
+    list-style: none;
+    margin: 14px;
+    margin-top: 8px;
+    margin-right: 22px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    transition-timing-function: linear;
+    transition-delay: 0.5ms;
+    transition-duration: 0.5ms;
+    color: #299740;
+}
+
+.LoginButton a {
+    background-color: #2D0B7B;
+    border: 2px solid #2D0B7B;
+    border-radius: 7px;
+    padding: 7px;
+}
+
+.LoginButton a:hover {
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.5ms;
+    transition-duration: 0.5ms;
+    background-color: #270082;
+    border: 2px solid #270082;
+    box-shadow: 1px 1px 20px 0px #000000;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+
+
+/*----------CONTENT DESIGN----------*/
+
+#for_about{
+    height: 1900px;
+}
+
+.contentinfo{
+    width: 780px;
+    font-size: 20px;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #150050;
+    padding: 10px 20px 30px 20px;
+    border-bottom: 15px solid #299740;
+    z-index: 1;
+    box-shadow: 2px 2px 20px 0px #000000;
+    border-radius: 0 0 17px 17px;
+
+}
+
+#bigD{
+    font-size: 70px;
+    position: relative;
+    top: 2px;
+    left: -2px;
+    z-index: 2;
+    margin: 0;
+}
+
+.contentInfo2 {
+    position: relative;
+    top: -10px;
+    z-index: 3;
+}
+
+.devImage {
+    background-color: #150050;
+    padding: 20px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    height: 325px;
+    width: 780px;
+    border-bottom: 10px dashed #299740;
+    box-shadow: 2px 2px 20px 0px #000000;
+}
+
+.marco{
+    margin: 50px 0 0 320px;
+    width:155px;
+    height:35px;
+    background: url('DEVS.jpg') no-repeat;
+    background-size: 1000px 500px;
+    background-position: 250px 0px;
+    background-color: rgb(65, 35, 77);
+    border: 6px solid #e6d0d0;
+    border-radius: 15px;
+    cursor: crosshair;
+    box-shadow: 2px 2px 20px 0px #000000;
+}
+
+.members {
+    display: block;
+}
+
+.members ul{
+    list-style-type: none;
+    display: none;
+}
+.marco:hover ul{
+    display: block;
+    margin:10px 15px 10px 10px;
+    transition: display 0.1s;
+}
+
+.marco:hover{
+   transition: width 0.5s, height 0.5s, position 1s;
+   width: 500px;
+   height: 300px;
+   transition-timing-function: ease-out;
+   position: absolute;
+}
+.luke{
+    margin: 50px 0 0 320px;
+    width:155px;
+    height:35px;
+    background: url('DEVL.jpg') no-repeat;
+    background-size: 200px 500px;
+    background-position: 300px 0px;
+    background-color: rgb(65, 35, 77);
+    border: 6px solid #e6d0d0;
+    border-radius: 15px;
+    cursor: crosshair;
+    box-shadow: 2px 2px 20px 0px #000000;
+}
+.members h3, .members li{
+    color: #299740;
+    margin: 2px;
+    padding: 3%;
+}
+.luke:hover ul{
+    display: block;
+    margin:10px 15px 10px 10px;
+    transition: display 1s;
+}
+
+.luke:hover{
+   transition: width 0.5s, height 0.5s, position 1s;
+   width: 500px;
+   height: 300px;
+   transition-timing-function: ease-out;
+   position: absolute;
+}
+
+.maxi{
+   margin: 50px 0 0 320px;
+   width:155px;
+   height:35px;
+   background: url('DEVM.jpg') no-repeat;
+   background-size: 200px 500px;
+   background-position: 300px 0px;
+   background-color: rgb(65, 35, 77);
+   border: 6px solid #e6d0d0;
+   border-radius: 15px;
+   cursor: crosshair;
+   box-shadow: 2px 2px 20px 0px #000000;
+}
+
+.maxi:hover ul{
+    display: block;
+    margin:10px 15px 10px 10px;
+    transition: display 1s;
+}
+
+.maxi:hover{
+   transition: width 0.5s, height 0.5s, position 1s;
+   width: 500px;
+   height: 300px;
+   transition-timing-function: ease-out;
+   position: absolute;
+}
+
+.emman1{
+   margin: 50px 0 0 320px;
+   width:155px;
+   height:35px;
+   background: url('DEVE.jpg') no-repeat;
+   background-size: 200px 500px;
+   background-position: 300px 0px;
+   background-color: rgb(65, 35, 77);
+   border: 6px solid #e6d0d0;
+   border-radius: 15px;
+   cursor: crosshair;
+   box-shadow: 2px 2px 20px 0px #000000;
+}
+
+.emman1:hover ul{
+    display: block;
+    margin:10px 15px 10px 10px;
+    transition: display 1s;
+}
+
+.emman1:hover{
+   transition: width 0.5s, height 0.5s, position 1s;
+   width: 500px;
+   height: 300px;
+   transition-timing-function: ease-out;
+   position: absolute;
+}
+
+.emman2{
+   margin: 50px 0 0 320px;
+   width:155px;
+   height:35px;
+   background: url('DEVEE.jpg') no-repeat;
+   background-size: 200px 500px;
+   background-position: 300px 0px;
+   background-color: rgb(65, 35, 77);
+   border: 6px solid #e6d0d0;
+   border-radius: 15px;
+   cursor: crosshair;
+   box-shadow: 2px 2px 20px 0px #000000;
+}
+
+.emman2:hover ul{
+    display: block;
+    margin:10px 15px 10px 10px;
+    transition: display 1s;
+}
+
+.emman2:hover{
+   transition: width 0.5s, height 0.5s, position 1s;
+   width: 500px;
+   height: 300px;
+   transition-timing-function: ease-out;
+   position: absolute;
+}
+
+
+.rod{
+    margin: 50px 0 0 320px;
+    width:155px;
+    height:35px;
+    background: url('DEVR.jpg') no-repeat;
+    background-size: 200px 500px;
+    background-position: 300px 0px;
+    background-color: rgb(65, 35, 77);
+    border: 6px solid #e6d0d0;
+    border-radius: 15px;
+    cursor: crosshair;
+    box-shadow: 2px 2px 20px 0px #000000;
+ }
+ 
+ .rod:hover ul{
+     display: block;
+     margin:10px 15px 10px 10px;
+     transition: display 1s;
+ }
+ 
+ .rod:hover{
+    transition: width 0.5s, height 0.5s, position 1s;
+    width: 500px;
+    height: 300px;
+    transition-timing-function: ease-out;
+    position: absolute;
+ }
+
+
+.kerby{
+    margin: 50px 0 0 320px;
+    width:155px;
+    height:35px;
+    background: url('DEVK.jpg') no-repeat;
+    background-size: 200px 500px;
+    background-position: 300px 0px;
+    background-color: rgb(65, 35, 77);
+    border: 6px solid #e6d0d0;
+    border-radius: 15px;
+    cursor: crosshair;
+    box-shadow: 2px 2px 20px 0px #000000;
+ }
+ 
+ .kerby:hover ul{
+     display: block;
+     margin:10px 15px 10px 10px;
+     transition: display 1s;
+ }
+ 
+ .kerby:hover{
+    transition: width 0.5s, height 0.5s, position 1s;
+    width: 500px;
+    height: 300px;
+    transition-timing-function: ease-out;
+    position: absolute;
+}
+
+.contentTitle{
+    margin-left: auto;
+    margin-right: auto;
+    width: 820px;
+    background-color: #150050;
+    border-top: 10px solid #299740;
+    border-bottom: 10px dashed #299740;
+    box-shadow: 2px 2px 20px 0px #000000;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #299740;
+    margin-top: 10%;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 4px 4px 2px #000000;
+    border-radius: 10px 10px 0 0;
+}
+
+.devTitle{
+    margin-left: auto;
+    margin-right: auto;
+    width: 820px;
+    color: #299740;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 4px 4px 2px #000000;
+    border-bottom: 7px dashed #299740;
+}
+
+.ourDevelopers {
+    margin-left: auto;
+    margin-right: auto;
+    width: 820px;
+    height: 840px;
+    margin-top: 5%;
+    background-color:#150050;
+    border-top: 10px solid #299740;
+    border-radius: 10px 10px 17px 17px;
+    box-shadow: 2px 2px 20px 0px #000000;
+    border-bottom: 15px solid #299740;
+}
+
+/*----------FOOTER DESIGN----------*/
+
+.footer {
+    background-color: #3E3E3E;
+    padding: 30px 45px 20px 40px;
+    height: 240px;
+    border-top: 5px solid #D64D4D;
+    display: grid;
+}
+.footerUpper {
+    display: grid;
+    text-align: center;
+    place-items: center;
+}
+
+.footerDesc {
+    color: #F2D2BD;
+    font-size: 16px;
+}
+
+.footerTitle {
+    color: #A47F68;
+    padding-bottom: 10px;
+}
+
+.footerInfo {
+    width: 850px;
+}
+
+.footerSocials {
+    display: inline-flex;
+    place-content: center;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.socHeading {
+    color: #959292;
+}
+
+.contact p {
+    font-size: 12px;
+}
+
+.follow ul li {
+    list-style-type: none;
+}
+
+.follow img {
+    width: 30px;
+    height: 30px;
+    padding: 7px;
+}
+
+.socIcons {
+    display: inline-flex;
+}
+
+.footerLowest span{
+    font-size: 12px;
+    color: #F2D2BD;
+    display: inline;
+}
+
+.footerUnder {
+    padding-top: 5px
+}
+
+.footerFR {
+    float: right;
+    padding-top: 4px;
+}
+
+
+

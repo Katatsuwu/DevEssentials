@@ -1,0 +1,230 @@
+<!DOCTYPE html><!--OUTPUT BY: DENAGA, VISTO, MONTE, DIMAAPI, SILVA, MERCIADEZ, CRUZ-->
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>DevEssentials | Products</title>
+            <link rel="stylesheet" href="CSS_DesignProducts.css">
+            <link rel="website icon" type="png" href="Devess_favicon.png"> 
+
+            <script>
+                function changeImage(x,image) {
+                    if(x==1) {
+                        image.src = 'cart_iconGR.png';
+                    }
+
+                    if(x==2) {
+                        image.src = 'cart_icon.png';
+                    }
+                }
+
+                var text = 
+                "You need to be logged in to access the cart!\nClick \"OK\" to redirect to the login page."; 
+
+               function loginPopup() {
+                    var result = confirm("You need to be logged in to access the cart!\nClick \"OK\" to redirect to the login page.");
+                    if (result == false) {
+                        event.preventDefault();
+                    }
+               }
+    
+            </script>
+        </head>
+
+        <body>
+            <!--HEADER-HEADER-HEADER-HEADER-HEADER-->
+            <div class="sticky">
+                <div class="header">
+                        <a href="Index.html"><img src="DevEsstLogo.png" class="logo"></a>
+                    <div class="navbar">
+                            <ul>
+                                <li><a href="Index.html">Home</a></li>
+                                <li><a href="DevEssAbout.html">About</a></li>
+                                <li><a href="DevEssProducts.html">Products</a></li>
+                                <li><a href="DevEssLogin.html"><img src="cart_icon.png" class="carticon"
+                                    onmouseover="changeImage(1,this)" onmouseout="changeImage(2,this)" onclick="loginPopup()"></a></li>
+                                <li class="LoginButton"><a href="DevEssLogin.html">Login/Sign-Up</a></li>
+                            </ul>
+                    </div>
+                </div>
+            </div>
+            <!--HEADER-HEADER-HEADER-HEADER-HEADER-->
+
+            <!--CONTENT-CONTENT-CONTENT-CONTENT-CONTENT-->
+            <div class="content">
+                
+                <div class="products" id="for_products">
+                    <h1>Products</h1>
+                    <div class="row-1">
+                        <a href="DevEssProduct1.html"><div class="col-1">
+                            <img src="DevProtectorSmall.jpg" alt="p1" id="placeholder">
+                            <ul>
+                                <li id="p-name"><span>DVES DevProtector</span></li>
+                                <li id="p-details">Price: <span>₱550</span></li>
+                                <li id="p-details">In Stock: <span>100 items left</span></li>
+                                <li id="p-details">Type: <span>Clothing</span></li>
+                                <li id="p-details">Country: <span>Philippines</span></li>
+                                <li><a href="DevEssProduct1.html"><button id="viewp">View Product</button></a></li>
+                            </ul>
+                        </div></a>
+                        <div class="addons">
+
+                        </div>
+                        <a href="DevEssProduct2.html"><div class="col-2">
+                            <img src="DevModeSmall.jpg" alt="p2" id="placeholder">
+                            <ul>
+                                <li id="p-name"><span>DVES DevMode</span></li>
+                                <li id="p-details">Price: <span>₱360</span></li>
+                                <li id="p-details">In Stock: <span>120 items left</span></li>
+                                <li id="p-details">Type: <span>Clothing</span></li>
+                                <li id="p-details">Country: <span>Philippines</span></li>
+                                <li><a href="DevEssProduct2.html"></a><button id="viewp">View product</button></a></li>
+                            </ul>
+                        </div></a>
+
+                        <a href="DevEssProduct3.html"><div class="col-3">
+                            <img src="AuditoriusSmall.jpg" alt="p3" id="placeholder">
+                            <ul>
+                                <li id="p-name"><span>DVES Auditorius X</span></li>
+                                <li id="p-details">Price: <span>₱2,499.99</span></li>
+                                <li id="p-details">In Stock: <span>30 items left</span></li>
+                                <li id="p-details">Type: <span>Peripheral</span></li>
+                                <li id="p-details">Country: <span>Philippines</span></li>
+                                <li><a href="DevEssProduct3.html"></a><button id="viewp">View Product</button></a></li>
+                            </ul>
+                        </div></a>
+                    </div>
+                    <div class="row-2">
+                        <a href="DevEssProduct4.html"><div class="col-4">
+                            <img src="BugChaserSmall.jpg" alt="p4" id="placeholder">
+                            <ul>
+                                <li id="p-name"><span>DVES BugChaser</span></li>
+                                <li id="p-details">Price: <span>₱1,375</span></li>
+                                <li id="p-details">In Stock: <span>55 items left</span></li>
+                                <li id="p-details">Type: <span>Peripheral</span></li>
+                                <li id="p-details">Country: <span>Philippines</span></li>
+                                <li><a href="DevEssProduct4.html"><button id="viewp">View Product</button></a></li>
+                            </ul>
+                        </div></a>
+                        <a href="DevEssProduct5.html"><div class="col-5">
+                            <img src="StyleSheetSmall.jpg" alt="p5" id="placeholder">
+                            <ul>
+                                <li id="p-name"><span>DVES StyleSheet</span></li>
+                                <li id="p-details">Price: <span>₱450</span></li>
+                                <li id="p-details">In Stock: <span>85 items left</span></li>
+                                <li id="p-details">Type: <span>Accessory</span></li>
+                                <li id="p-details">Country: <span>Philippines</span></li>
+                                <li><a href="DevEssProduct5.html"><button id="viewp">View Product</button></a></li>
+                            </ul>
+                        </div></a>
+                        <a href="DevEssProduct6.html"><div class="col-6">
+                            <img src="CodeFocusSmall.jpg" alt="p6" id="placeholder">
+                            <ul>
+                                <li id="p-name"><span>DVES CodeFocus</span></li>
+                                <li id="p-details">Price: <span>₱899.99</span></li>
+                                <li id="p-details">In Stock: <span>65 items left</span></li>
+                                <li id="p-details">Type: <span>Accessory</span></li>
+                                <li id="p-details">Country: <span>Philippines</span></li>
+                                <li><a href="DevEssProduct6.html"><button id="viewp">View Product</button></a></li>
+                            </ul>
+                        </div></a>
+                    </div>
+                    <div class="row-3">
+                        <a href="DevEssProduct7.html"><div class="col-7">
+                            <img src="CodeMaxSmall.jpg" alt="p6" id="placeholder">
+                            <ul>
+                                <li id="p-name"><span>DVES CodeMax</span></li>
+                                <li id="p-details">Price: <span>₱3,499.99</span></li>
+                                <li id="p-details">In Stock: <span>20 items left</span></li>
+                                <li id="p-details">Type: <span>Peripheral</span></li>
+                                <li id="p-details">Country: <span>Philippines</span></li>
+                                <li><a href="DevEssProduct7.html"><button id="viewp">View Product</button></a></li>
+                            </ul>
+                        </div></a>
+                        <a href="DevEssProduct8.html"><div class="col-8">
+                            <img src="MK87Small.jpg" alt="p8" id="placeholder">
+                            <ul>
+                                <li id="p-name"><span>DVES MK-87</span></li>
+                                <li id="p-details">Price: <span>₱2,299.75</span></li>
+                                <li id="p-details">In Stock: <span>35 items left</span></li>
+                                <li id="p-details">Type: <span>Peripheral</span></li>
+                                <li id="p-details">Country: <span>Philippines</span></li>
+                                <li><a href="DevEssProduct8.html"><button id="viewpp">View Product</button></a></li>
+                            </ul>
+                        </div></a>
+                        <a href="DevEssProduct9.html"><div class="col-9">
+                            <img src="MK61Small.jpg" alt="p9" id="placeholder">
+                            <ul>
+                                <li id="p-name"><span>DVES MK-61</span></li>
+                                <li id="p-details">Price: <span>₱1,799.55</span></li>
+                                <li id="p-details">In Stock: <span>45 items left</span></li>
+                                <li id="p-details">Type: <span>Peripheral</span></li>
+                                <li id="p-details">Country: <span>Philippines</span></li>
+                                <li><a href="DevEssProduct9.html"><button id="viewp">View Product</button></a></li>
+                            </ul>
+                        </div></a>
+                    </div>
+                </div>
+            </div>
+            <!--CONTENT-CONTENT-CONTENT-CONTENT-CONTENT-->
+
+            <!--FOOTER-FOOTER-FOOTER-FOOTER-FOOTER-->
+            <div class="footer">
+                <div class="footerUpper">
+                    <div class="footerInfo">
+                        <h2 class="footerTitle">For Developers, By Developers</h2>
+                        <p class="footerDesc">
+                            DevEssentials brings developers their essentials with an 
+                            amazing quality and an affordable price. Our products are 
+                            optimized for the convenience of our fellow developers in order 
+                            to ensure a great coding experience for them. Here at 
+                            DevEssentials, our products are made for developers, and made by developers.
+                        </p>
+                    </div>
+                </div>
+                <br/>
+
+            <div class="footerSocials">
+                <div class="follow">
+                    <h4 class="socHeading">Follow us</h4>
+                    <ul class="socIcons">
+                        <li><a href="https://www.facebook.com/profile.php?id=100089297331504"><img src="facebook_icon.png"></a></li>
+                        <li><a href="https://twitter.com/Dev_Essentials"><img src="twitter_icon.png"></a></li>
+                        <li><a href="https://www.instagram.com/dev_essentials/"><img src="instagram_icon.png"></a></li>
+                    </ul>
+                </div>
+
+                <div class="follow">
+                    <h4 class="socHeading">Contact us</h4>
+                    <ul>
+                        <li>devessentialsincorporated@gmail.com</li>
+                        <li>+(63)9760337285</li>
+                    </ul>
+
+                </div>
+
+                <div class="follow">
+                    <h4 class="socHeading">Join us</h4>
+                    <ul class="socIcons">
+                        <li><a href="https://www.reddit.com/r/DevEssentials/"><img src="reddit_icon.png"></a></li>
+                        <li><a href="https://discord.gg/jQWyMsWBjg"><img src="discord_icon.png"></a></li>
+                        <li><a href="https://www.facebook.com/groups/708901250936905"><img src="facebook_icon.png"></a></li>
+                    </ul>
+                </div>
+            </div><br/><br/>
+
+            <div class="footerLowest">
+                
+                <hr color=#9E9188>
+                <div class="footerUnder">
+                    <span class="footerFL">Copyright © 2023 DevEssentials Inc. All rights reserved.</span>
+                    <span class="footerFR">Philippines | Cainta Rizal</span>
+                </div>
+            </div>       
+        </div>
+        <!--FOOTER-FOOTER-FOOTER-FOOTER-FOOTER-->
+
+        </body>
+    </html>
+

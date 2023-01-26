@@ -1,0 +1,206 @@
+<!DOCTYPE html><!--OUTPUT BY: DENAGA, VISTO, MONTE, DIMAAPI, SILVA, MERCIADEZ, CRUZ-->
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>DevEssentials | About Us</title>
+            <link rel="stylesheet" href="CSS_DesignAbout.css">
+            <link rel="website icon" type="png" href="Devess_favicon.png"> 
+
+            <script>
+                function changeImage(x,image) {
+                    if(x==1) {
+                        image.src = 'cart_iconGR.png';
+                    }
+
+                    if(x==2) {
+                        image.src = 'cart_icon.png';
+                    }
+                }
+
+                var text = 
+                "You need to be logged in to access the cart!\nClick \"OK\" to redirect to the login page."; 
+
+               function loginPopup() {
+                    var result = confirm("You need to be logged in to access the cart!\nClick \"OK\" to redirect to the login page.");
+                    if (result == false) {
+                        event.preventDefault();
+                    }
+               }
+    
+            </script>
+        </head>
+
+        <body>
+            <!--HEADER-HEADER-HEADER-HEADER-HEADER-->
+            <div class="sticky">
+                <div class="header">
+                        <a href="Index.html"><img src="DevEsstLogo.png" class="logo"></a>
+                    <div class="navbar">
+                            <ul>
+                                <li><a href="Index.html">Home</a></li>
+                                <li><a href="DevEssAbout.html">About</a></li>
+                                <li><a href="DevEssProducts.html">Products</a></li>
+                                <li><a href="DevEssLogin.html"><img src="cart_icon.png" class="carticon"
+                                    onmouseover="changeImage(1,this)" onmouseout="changeImage(2,this)" onclick="loginPopup()"></a></li>
+                                <li class="LoginButton"><a href="DevEssLogin.html">Login/Sign-Up</a></li>
+                            </ul>
+                    </div>
+                </div>
+            </div>
+            <!--HEADER-HEADER-HEADER-HEADER-HEADER-->
+
+            <!--CONTENT-CONTENT-CONTENT-CONTENT-CONTENT-->
+            <div class="content" id="for_about">
+                <div class="about_us">
+                <div class="contentDesc">
+                    <h1 class="contentTitle">About Us!</h1>
+                    <img src="DEVS.jpg" class="devImage">
+                    <p class="contentinfo"> <span id="bigD">D</span>evEssentials, 
+                        also known as DevEss, is a company founded in 2022 by a 
+                        group of senior <span class="contentInfo2">high school IT students who studies at STI 
+                        College Ortigas-Cainta, Philippines. The group is composed 
+                        of Kerby Denaga, Emmanuel Visto, Luke Monte, Maximilian Cruz, 
+                        Marco Dimaapi, Emman Silva, and Rod Merciadez. The group was 
+                        formed because of a project in their school. They spend time 
+                        together coding, eating, and gaming. Eventually, this group 
+                        started to found their company, which is DevEssentials. 
+                        Dev Essentials was founded with only one purpose: to provide 
+                        essentials for our fellow developers. Here at DevEssentials, 
+                        our products are essentially made for developers, and made 
+                        by developers.</span>
+                    </p>
+                </div>
+                <div class="ourDevelopers">
+                        <h1 class="devTitle">Our Developers</h1>
+                    <div class="members">
+                        <br/>
+                        <div class="marco">
+                            <h3>Dev Marco</h3>
+                            <ul>
+                                <li>Name: Marco Dimaapi</li>
+                                <li>Age: 16</li>
+                                <li>Hobbies: Cooking and Gaming</li>
+                                <li>Motto: "Time is gold."</li>
+                            </ul>
+                        </div>
+                        <div class="luke">
+                            <h3>Dev Luke</h3>
+                            <ul>
+                                <li>Name: Luke John Paul Monte</li>
+                                <li>Age: 17</li>
+                                <li>Hobbies: Workout and Gaming</li>
+                                <li>Motto: "Money is the future!"</li>
+                            </ul>
+                        </div>
+                        <div class="maxi">
+                            <h3>Dev Maximilian</h3>
+                            <ul>
+                                <li>Name: Maximilian Cruz</li>
+                                <li>Age: 19</li>
+                                <li>Hobbies: Gaming and Listening to Music</li>
+                                <li>Motto: "Success doesn't rush to the top."</li>
+                            </ul>
+                        </div>
+                        <div class="emman1">
+                            <h3>Dev Emmanuel</h3>
+                            <ul>
+                                <li>Name: Emmanuel Gabriel Visto</li>
+                                <li>Age: 17</li>
+                                <li>Hobbies: Studying and Gaming</li>
+                                <li>Motto: "Hardwork pays."</li>
+                            </ul>
+                        </div>
+                        <div class="emman2">
+                            <h3>Dev Emman</h3>
+                            <ul>
+                                <li>Name: Emman Silva</li>
+                                <li>Age: 17</li>
+                                <li>Hobbies: Poetry and Watching Anime</li>
+                                <li>Motto: "Poetry is life."</li>
+                            </ul>
+                        </div>
+                        <div class="rod">
+                            <h3>Dev Rod</h3>
+                            <ul>
+                                <li>Name: Rod Carl Merciadez</li>
+                                <li>Age: 16</li>
+                                <li>Hobbies: Gaming</li>
+                                <li>Motto: "Perfectionism is a sin."</li>
+                            </ul>
+                        </div>
+                        <div class="kerby">
+                            <h3>Dev Kerby</h3>
+                            <ul >
+                                <li id="ul">Name: Jullian Kerby Denaga</li>
+                                <li id="ul">Age: 16</li>
+                                <li id="ul">Hobbies: Gaming and Watching</li>
+                                <li id="ul">Motto: "We find ways."</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <!--CONTENT-CONTENT-CONTENT-CONTENT-CONTENT-->
+                
+            <!--FOOTER-FOOTER-FOOTER-FOOTER-FOOTER-->
+            <div class="footer">
+                <div class="footerUpper">
+                    <div class="footerInfo">
+                        <h2 class="footerTitle">For Developers, By Developers</h2>
+                        <p class="footerDesc">
+                            DevEssentials brings developers their essentials with an 
+                            amazing quality and an affordable price. Our products are 
+                            optimized for the convenience of our fellow developers in order 
+                            to ensure a great coding experience for them. Here at 
+                            DevEssentials, our products are made for developers, and made by developers.
+                        </p>
+                    </div>
+                </div>
+                <br/>
+
+            <div class="footerSocials">
+                <div class="follow">
+                    <h4 class="socHeading">Follow us</h4>
+                    <ul class="socIcons">
+                        <li><a href="https://www.facebook.com/profile.php?id=100089297331504"><img src="facebook_icon.png"></a></li>
+                        <li><a href="https://twitter.com/Dev_Essentials"><img src="twitter_icon.png"></a></li>
+                        <li><a href="https://www.instagram.com/dev_essentials/"><img src="instagram_icon.png"></a></li>
+                    </ul>
+                </div>
+
+                <div class="follow">
+                    <h4 class="socHeading">Contact us</h4>
+                    <ul>
+                        <li>devessentialsincorporated@gmail.com</li>
+                        <li>+(63)9760337285</li>
+                    </ul>
+
+                </div>
+
+                <div class="follow">
+                    <h4 class="socHeading">Join us</h4>
+                    <ul class="socIcons">
+                        <li><a href="https://www.reddit.com/r/DevEssentials/"><img src="reddit_icon.png"></a></li>
+                        <li><a href="https://discord.gg/jQWyMsWBjg"><img src="discord_icon.png"></a></li>
+                        <li><a href="https://www.facebook.com/groups/708901250936905"><img src="facebook_icon.png"></a></li>
+                    </ul>
+                </div>
+            </div><br/><br/>
+
+            <div class="footerLowest">
+                
+                <hr color=#9E9188>
+                <div class="footerUnder">
+                    <span class="footerFL">Copyright © 2023 DevEssentials Inc. All rights reserved.</span>
+                    <span class="footerFR">Philippines | Cainta Rizal</span>
+                </div>
+            </div>        
+        </div>
+        <!--FOOTER-FOOTER-FOOTER-FOOTER-FOOTER-->
+
+        </body>
+    </html>
+
